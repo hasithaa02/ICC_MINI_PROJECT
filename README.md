@@ -2,9 +2,10 @@
 
 ## Problem Statement
 
-```You are hired by a company Gem Stones Co Ltd. You are provided with the dataset containing the prices and other attributes of almost 27,000 cubic gemstone. The company is earning different profits on different prize slots. You have to help the company in predicting the price for the stone on the basis of the details given in the dataset so it can distinguish between higher profitable stones and lower profitable stones so as to have a better profit share. Also, provide them with the best 5 attributes that are most important.```
+```I discovered a dataset, "JewelStone," with details and prices for nearly 27,000 cubic stones. Using this data, the goal is to predict stone prices based on key attributes, helping to identify stones with higher profit potential. Additionally, finding the top five most important attributes could offer valuable insights for maximizing profits.```
 
-## Data Dictionary
+
+## Dataset description
 
 * Carat	- Carat weight of the gemstone.
 * Cut - Describe the cut quality of the gemstone. Quality is increasing order Fair, Good, Very Good, Premium, Ideal.
@@ -87,20 +88,5 @@ python app.py
 streamlit run streamlit_app.py
 ```
 
-## Training Experiments - DagsHub
-
-https://dagshub.com/abhijitpaul0212/GemstonePricePrediction
-
-
-## Deployment of DockerImage on AWS
-* AWS - ECR
-* AWS - AppRunner
-
-## Cloud Deployed Links
-* https://gemstonepriceprediction.streamlit.app/
-* https://g3smncimby.us-east-1.awsapprunner.com/
-
-
 ## Dataset Link
 * https://www.kaggle.com/datasets/colearninglounge/gemstone-price-prediction
-* https://raw.githubusercontent.com/abhijitpaul0212/DataSets/main/gemstone.csv
